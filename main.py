@@ -1,7 +1,8 @@
 import openpyxl
 
-inv_file = openp
+inv_file = openpyxl.load_workbook("inventory.xlsx")
 product_list = inv_file["Sheet1"]
+
 
 products_per_supplier = {}
 total_value_per_supplier = {}
