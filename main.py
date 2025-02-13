@@ -1,6 +1,6 @@
 import openpyxl
 
-inv_file = openpyxl.load_workbook("inventory.xlsx")
+inv_file = openpyxl.load_workbook("./Data/inventory.xlsx")
 product_list = inv_file["Sheet1"]
 
 
